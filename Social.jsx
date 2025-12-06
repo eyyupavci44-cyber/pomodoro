@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://pomodoro-api-71yj.onrender.com/';
 
 const Social = () => {
     const [friends, setFriends] = useState([]);
@@ -108,3 +108,4 @@ const Social = () => {
 };
 
 export default Social;
+
