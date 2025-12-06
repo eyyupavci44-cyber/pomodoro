@@ -9,8 +9,8 @@
     "build": "vite build",
     "predeploy": "npm run build",
     
-    
-   "deploy": "git push origin `git subtree split --prefix dist master`:gh-pages --force",
+    // 🚩 POWERHSHELL UYUMLU, GH-PAGES'İ ATLAYAN KOMUT 🚩
+    "deploy": "git push origin $(git subtree split --prefix dist master):gh-pages --force",
     
     "lint": "eslint .",
     "preview": "vite preview"
