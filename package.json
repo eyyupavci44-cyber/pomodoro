@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://eyyupavci44-cyber.github.io/pomodoro-odakli-fronted/",
+  "homepage": "https://eyyupavci44-cyber.github.io/pomodoro-odakli-frontend-v2/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
