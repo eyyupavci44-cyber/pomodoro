@@ -1,10 +1,10 @@
 {
-  "name": "pomodoro",
+  "name": "pomodoro-odakli-fronted",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://eyyupavci44-cyber.github.io/pomodoro/",
-  "scripts": {
+  "homepage": "https://eyyupavci44-cyber.github.io/pomodoro-odakli-fronted/", 
+  "scripts" {
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
