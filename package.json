@@ -10,7 +10,7 @@
     "predeploy": "npm run build",
     
     
-    "deploy": "git push origin `git subtree split --prefix dist master`:gh-pages --force",
+    "deploy": "gh-pages -d dist",
     
     "lint": "eslint .",
     "preview": "vite preview"
