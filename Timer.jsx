@@ -52,7 +52,7 @@ const Timer = () => {
         // Log to backend
         try {
             if (token && mode === 'work') { // Only log work sessions for now? Or all? User said "study" but backend supports breaks too.
-                await fetch('http://localhost:8000/timer/session', {
+                await fetch('https://pomodoro-api-71yj.onrender.com/', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -176,3 +176,4 @@ const Timer = () => {
 };
 
 export default Timer;
+
