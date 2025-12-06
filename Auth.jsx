@@ -9,7 +9,7 @@ const Auth = () => {
     const [error, setError] = useState('');
     const { login } = useAuth();
 
-    const API_URL = 'http://localhost:8000';
+    const API_URL = 'https://pomodoro-api-71yj.onrender.com/';
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -87,3 +87,4 @@ const Auth = () => {
 };
 
 export default Auth;
+
